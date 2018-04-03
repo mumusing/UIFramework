@@ -1,0 +1,7 @@
+<suite name="Acceptance TestSuite">
+<test name="Configuration Tests">
+ <classes>
+ <class name="org.orac.TestCases.Logintest"></class>
+ </classes>
+</test>
+</suite>
