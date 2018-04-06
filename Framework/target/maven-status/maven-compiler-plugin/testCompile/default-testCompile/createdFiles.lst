@@ -1,0 +1,13 @@
+com\oracle\framework\Utils.class
+com\oracle\framework\WrappedWebDriver.class
+com\oracle\framework\DateHelper.class
+com\oracle\framework\DataProvider.class
+com\oracle\framework\Report$1.class
+com\oracle\framework\ExcelHelper.class
+com\oracle\framework\TestCase.class
+com\oracle\framework\DataBaseHelper.class
+com\oracle\framework\Report.class
+com\oracle\framework\Status.class
+com\oracle\framework\Config.class
+com\oracle\framework\DbDetails.class
+com\oracle\framework\EnvDetails.class
