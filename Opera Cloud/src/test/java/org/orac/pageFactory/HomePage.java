@@ -2,11 +2,7 @@ package org.orac.pageFactory;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.orac.pageObjectRepository.HomePageObjectRepository;
 
 import com.oracle.framework.Asserts;
@@ -15,11 +11,10 @@ import com.oracle.framework.Report;
 import com.oracle.framework.Status;
 import com.oracle.framework.Utils;
 import com.oracle.framework.WaitTypes;
-import com.oracle.framework.WrappedWebDriver;
 
 public class HomePage extends BasePage<HomePageObjectRepository>
 {
-	
+
 	public HomePage(WebDriver driver) 
 	{
 		super(driver,new HomePageObjectRepository(driver));
@@ -73,5 +68,5 @@ public class HomePage extends BasePage<HomePageObjectRepository>
 		driver.findElement(ObjectRepository.Logout_Button).click();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
-	
+
 }

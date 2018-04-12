@@ -7,6 +7,8 @@ import com.oracle.framework.BasePageObjectRepository;
 
 public class TransactionGroupsPageTemplateSectionObjectRepository extends BasePageObjectRepository
 {
+	
+	
 
 	public TransactionGroupsPageTemplateSectionObjectRepository(WebDriver driver) 
 	{

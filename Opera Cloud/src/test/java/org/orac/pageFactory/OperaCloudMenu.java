@@ -12,6 +12,9 @@ import com.oracle.framework.WrappedWebDriver;
 
 public class OperaCloudMenu 
 {
+	
+	
+	
      WrappedWebDriver driver;
 	 public OperaCloudMenu(WrappedWebDriver driver)
 	 {

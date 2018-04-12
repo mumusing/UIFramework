@@ -14,6 +14,7 @@ import com.oracle.framework.WaitTypes;
 public class TransactionGroupsPage extends BasePage<TransactionGroupsPageObjectRepository>
 {
 
+	
 	public TransactionGroupsPage(WebDriver driver) 
 	{
 		super(driver, new TransactionGroupsPageObjectRepository(driver));

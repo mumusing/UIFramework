@@ -18,6 +18,8 @@ public class TransactionGroupsPageTemplateSection extends BasePage<TransactionGr
    	
 
 	
+	
+	
 	/**
 	 * This method click on new link present on template section
 	 */

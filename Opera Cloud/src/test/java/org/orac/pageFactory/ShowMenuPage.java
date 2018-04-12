@@ -10,9 +10,10 @@ import com.oracle.framework.Report;
 import com.oracle.framework.Status;
 import com.oracle.framework.Utils;
 import com.oracle.framework.WaitTypes;
-
 public class ShowMenuPage extends BasePage<ShowMenuPageObjectRepository> {
 
+	
+	
 	public ShowMenuPage(WebDriver driver) {
 		super(driver, new ShowMenuPageObjectRepository(driver));
 		// TODO Auto-generated constructor stub

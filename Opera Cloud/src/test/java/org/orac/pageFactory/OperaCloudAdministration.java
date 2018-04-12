@@ -10,6 +10,8 @@ import com.oracle.framework.WrappedWebDriver;
 
 public class OperaCloudAdministration 
 {
+	
+	
 	WrappedWebDriver driver;
     public OperaCloudAdministration(WrappedWebDriver driver)
     {

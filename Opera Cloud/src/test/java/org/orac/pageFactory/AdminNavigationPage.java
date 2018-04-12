@@ -22,6 +22,8 @@ public class AdminNavigationPage extends BasePage<AdminNavigationPageObjectRepos
 	}
 
 	
+	
+	
 	public void isAt()
 	{
 		boolean isAt;
