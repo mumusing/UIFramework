@@ -3,13 +3,11 @@
 <suite name="Failed suite [Acceptance TestSuite]">
   <test name="Configuration Tests(failed)">
     <classes>
-      <class name="org.orac.TestCases.Logintest">
+      <class name="org.orac.TestCases.ConfigurationTest">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="login"/>
+          <include name="createTransactionCode"/>
         </methods>
-      </class> <!-- org.orac.TestCases.Logintest -->
+      </class> <!-- org.orac.TestCases.ConfigurationTest -->
     </classes>
   </test> <!-- Configuration Tests(failed) -->
 </suite> <!-- Failed suite [Acceptance TestSuite] -->

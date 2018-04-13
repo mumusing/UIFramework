@@ -2,34 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64660" started-at="2018-03-24T18:23:17Z" finished-at="2018-03-24T18:24:22Z">
+  <suite name="Acceptance TestSuite" duration-ms="94467" started-at="2018-04-12T05:18:09Z" finished-at="2018-04-12T05:19:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64660" started-at="2018-03-24T18:23:17Z" finished-at="2018-03-24T18:24:22Z">
+    <test name="Configuration Tests" duration-ms="94467" started-at="2018-04-12T05:18:09Z" finished-at="2018-04-12T05:19:44Z">
       <class name="org.orac.TestCases.ConfigurationTest">
-        <test-method status="FAIL" signature="createTransactionCode()[pri:0, instance:org.orac.TestCases.ConfigurationTest@4c70fda8]" name="createTransactionCode" duration-ms="62963" started-at="2018-03-24T23:53:17Z" description="This method use for create transaction method" finished-at="2018-03-24T23:54:20Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="createTransactionCode()[pri:0, instance:org.orac.TestCases.ConfigurationTest@224edc67]" name="createTransactionCode" duration-ms="92105" started-at="2018-04-12T10:48:09Z" description="This method use for create transaction method" finished-at="2018-04-12T10:49:42Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[unknown error: Element <span id="pt1:oc_pg_pt:pt_pt1:oc_pg_sdmn:j_idt10::text" class="x17w">...</span> is not clickable at point (118, 195). Other element would receive the click: <div id="ode-curtain" tabindex="0" style="display: block; top: 0px; left: 0px; right: 0px; height: 664px;"></div>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//tr[contains(@id,'pt1:oc_pg_pt:pt_pt1:dm1:j_idt')]//td[text()='Transaction Groups']"}
   (Session info: chrome=65.0.3325.181)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
-System info: host: 'MUMUSING-IN', ip: '10.191.221.235', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'
+System info: host: 'MUMUSING-IN', ip: '10.178.142.146', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\mumusing\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 3e9f006e85c448547fcab6fa4da5d4c9]]>
+Session ID: da8dbb068e9ce19ba535183d94df1757
+*** Element info: {Using=xpath, value=//tr[contains(@id,'pt1:oc_pg_pt:pt_pt1:dm1:j_idt')]//td[text()='Transaction Groups']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span id="pt1:oc_pg_pt:pt_pt1:oc_pg_sdmn:j_idt10::text" class="x17w">...</span> is not clickable at point (118, 195). Other element would receive the click: <div id="ode-curtain" tabindex="0" style="display: block; top: 0px; left: 0px; right: 0px; height: 664px;"></div>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[contains(@id,'pt1:oc_pg_pt:pt_pt1:dm1:j_idt')]//td[text()='Transaction Groups']"}
   (Session info: chrome=65.0.3325.181)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
-System info: host: 'MUMUSING-IN', ip: '10.191.221.235', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'
+System info: host: 'MUMUSING-IN', ip: '10.178.142.146', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_152'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\mumusing\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 3e9f006e85c448547fcab6fa4da5d4c9
+Session ID: da8dbb068e9ce19ba535183d94df1757
+*** Element info: {Using=xpath, value=//tr[contains(@id,'pt1:oc_pg_pt:pt_pt1:dm1:j_idt')]//td[text()='Transaction Groups']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -42,17 +46,20 @@ Session ID: 3e9f006e85c448547fcab6fa4da5d4c9
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:376)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:389)
-	at org.orac.pageFactory.ShowMenuPage.clickAdministrationMenu(ShowMenuPage.java:48)
-	at org.orac.TestCases.ConfigurationTest.createTransactionCode(ConfigurationTest.java:76)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)
+	at com.oracle.framework.WrappedWebDriver.findElement(WrappedWebDriver.java:123)
+	at org.orac.pageFactory.AdminNavigationPage.navigateToTranscationGroupPage(AdminNavigationPage.java:75)
+	at org.orac.TestCases.ConfigurationTest.createTransactionCode(ConfigurationTest.java:89)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,11 +87,11 @@ Session ID: 3e9f006e85c448547fcab6fa4da5d4c9
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTransactionCode -->
       </class> <!-- org.orac.TestCases.ConfigurationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Configuration Tests -->
+  </suite> <!-- Acceptance TestSuite -->
 </testng-results>
